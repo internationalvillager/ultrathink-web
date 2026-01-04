@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Zap, Brain, Shield, Gauge } from "lucide-react";
+import { ArrowRight, Zap, Brain, Shield, Gauge, Download } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 export default function Home() {
@@ -81,6 +81,9 @@ export default function Home() {
               </Button>
               <Button size="lg" variant="outline" className="border-purple-500/50 hover:bg-purple-900/20" onClick={() => window.open('https://calendly.com/hi-ultrathin-k/30min', '_blank')}>
                 Book Meeting
+              </Button>
+              <Button size="lg" variant="ghost" className="text-purple-300 hover:text-white hover:bg-purple-900/20" onClick={() => window.open('/UltraThinK_Nexus_Platform_Guide.pdf', '_blank')}>
+                <Download className="mr-2 w-4 h-4" /> Download Guide
               </Button>
               </div>
             </div>
@@ -359,6 +362,7 @@ export default function Home() {
                 <li><a href="#" className="hover:text-cyan-400 transition">Features</a></li>
                 <li><a href="#" className="hover:text-cyan-400 transition">Pricing</a></li>
                 <li><a href="#" className="hover:text-cyan-400 transition">Security</a></li>
+                <li><a href="/UltraThinK_Nexus_Platform_Guide.pdf" target="_blank" className="hover:text-cyan-400 transition flex items-center gap-1"><Download className="w-3 h-3" /> Download Guide</a></li>
               </ul>
             </div>
           </div>
