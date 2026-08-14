@@ -82,7 +82,7 @@ export default function Home() {
               <Button size="lg" variant="outline" className="border-purple-500/50 hover:bg-purple-900/20" onClick={() => window.open('https://calendly.com/hi-ultrathin-k/30min', '_blank')}>
                 Book Meeting
               </Button>
-              <Button size="lg" variant="ghost" className="text-purple-300 hover:text-white hover:bg-purple-900/20" onClick={() => window.open('/UltraThinK_Nexus_Platform_Guide.pdf', '_blank')}>
+              <Button size="lg" variant="ghost" className="text-purple-300 hover:text-white hover:bg-purple-900/20" onClick={() => window.open('/ultrathink-web/UltraThinK_Nexus_Platform_Guide.pdf', '_blank')}>
                 <Download className="mr-2 w-4 h-4" /> Download Guide
               </Button>
               </div>
@@ -90,7 +90,7 @@ export default function Home() {
 
             <div data-animate className="opacity-0 translate-x-8 transition-all duration-700 delay-200">
               <img
-                src="https://internationalvillager.github.io/ultrathink-web/images/ultrathink_nexus_platform.webp"
+                src="/ultrathink-web/images/ultrathink_nexus_platform.webp"
                 alt="UltraThin-K Nexus Platform"
                 className="w-full rounded-2xl shadow-2xl border border-purple-500/20 object-cover"
                 loading="lazy"
@@ -112,7 +112,7 @@ export default function Home() {
 
           <div data-animate className="opacity-0 translate-y-8 transition-all duration-700">
             <img
-              src="https://internationalvillager.github.io/ultrathink-web/images/ultrathink_nexus_platform_2.webp"
+              src="/ultrathink-web/images/ultrathink_nexus_platform_2.webp"
               alt="Problem vs Solution"
               className="w-full max-h-80 rounded-2xl shadow-2xl border border-purple-500/20 object-cover"
               loading="lazy"
@@ -218,7 +218,7 @@ export default function Home() {
 
           <div data-animate className="opacity-0 translate-y-8 transition-all duration-700">
             <img
-              src="https://internationalvillager.github.io/ultrathink-web/images/ultrathink_nexus_paradigm_shift.webp"
+              src="/ultrathink-web/images/ultrathink_nexus_paradigm_shift.webp"
               alt="Old Paradigm vs New Era"
               className="w-full max-h-80 rounded-2xl shadow-2xl border border-purple-500/20 object-cover"
               loading="lazy"
@@ -362,7 +362,7 @@ export default function Home() {
                 <li><a href="#" className="hover:text-cyan-400 transition">Features</a></li>
                 <li><a href="#" className="hover:text-cyan-400 transition">Pricing</a></li>
                 <li><a href="#" className="hover:text-cyan-400 transition">Security</a></li>
-                <li><a href="/UltraThinK_Nexus_Platform_Guide.pdf" target="_blank" className="hover:text-cyan-400 transition flex items-center gap-1"><Download className="w-3 h-3" /> Download Guide</a></li>
+                <li><a href="/ultrathink-web/UltraThinK_Nexus_Platform_Guide.pdf" target="_blank" className="hover:text-cyan-400 transition flex items-center gap-1"><Download className="w-3 h-3" /> Download Guide</a></li>
               </ul>
             </div>
           </div>
